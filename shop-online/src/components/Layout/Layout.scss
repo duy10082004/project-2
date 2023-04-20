@@ -1,0 +1,33 @@
+.header {
+  background: orange;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__logo {
+    a {
+      color: #fff;
+      font-size: 28px;
+      font-weight: 700;
+    }
+  }
+
+  &__cart {
+    a {
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+    }
+  }
+}
+
+.main {
+  padding: 30px 20px;
+}
+
+.footer {
+  background: orange;
+  text-align: center;
+  padding: 10px 20px;
+}
